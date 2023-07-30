@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>JQ Demo</title>
+    <!-- css links -->
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+  </head>
+  <body>
+    <!-- Alert -->
+    <div class="container">
+      <h1>Click the button show the alert message</h1>
+      <button type="button" class="btn btn-danger">Show alert</button>
+    </div>
+
+    <!-- show & hide -->
+    <div class="container">
+      <h1 class="text-danger">Click the button show & hide the text</h1>
+      <button id="btns" type="button" class="btn btn-danger">show</button>
+      <button id="btnh" type="button" class="btn btn-success">hide</button>
+       <button id="toggle" type="button" class="btn btn-warning">Toggle</button>
+      <h2>Lorem ipsum dolor sit amet.</h2>
+    </div>
+
+    <!-- Fade -->
+    <div class="container">
+      <h1 class="text-danger">Click the button show & hide the text</h1>
+      <button id="btn_s" type="button" class="btn btn-danger">FadeIn</button>
+      <button id="btn_h" type="button" class="btn btn-success">FadeOut</button>
+       <button id="btn_t" type="button" class="btn btn-warning">Fade Toggle</button>
+      <h2>Lorem ipsum dolor sit amet.</h2>
+    </div>
+
+    <!-- Question & ans -->
+    <div class="container">
+      <p class="question mb-0">Lorem ipsum dolor sit amet?</p>
+      <p class="answer mb-0">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae, maiores aut libero dolorum dolore mollitia quisquam esse voluptatibus consequatur eaque. Repellendus, soluta, quod. Illum libero fugit, deserunt, voluptates doloremque officia beatae veritatis, fuga voluptate quidem aliquid aspernatur distinctio maxime eos provident placeat consequatur, voluptatum magni debitis minus iure minima. Non.</p>
+    </div>
+    <!-- Draggable -->
+    <div class="container mt-3">
+      <div id="draggable" class="ui-widget-content">
+        <p>Lorem ipsum dolor sit.</p>
+      </div>
+    </div>
+
+    <!-- Accordion -->
+    <div class="container">
+      <div id="accordion">
+  <h3>Section 1</h3>
+  <div>
+    <p>
+    Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
+    ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
+    amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
+    odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
+    </p>
+  </div>
+  <h3>Section 2</h3>
+  <div>
+    <p>
+    Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
+    purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
+    velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
+    suscipit faucibus urna.
+    </p>
+  </div>
+  <h3>Section 3</h3>
+    <div>
+     <p>
+      Nam enim risus, molestie et, porta ac, aliquam ac,  risus. Quisque lobortis.
+      Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero
+      ac tellus pellentesque semper. Sed ac felis. Sed  commodo, magna quis
+      lacinia ornare, quam ante aliquam nisi, eu iaculis leo  purus venenatis dui.
+    </p>
+    <ul>
+      <li>List item one</li>
+      <li>List item two</li>
+      <li>List item three</li>
+    </ul>
+   </div>
+   <h3>Section 4</h3>
+   <div>
+    <p>
+    Cras dictum. Pellentesque habitant morbi tristique senectus et netus
+    et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in
+    faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia
+    mauris vel est.
+    </p>
+    <p>
+    Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus.
+    Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+    inceptos himenaeos.
+    </p>
+  </div>
+</div>
+ 
+    </div>
+    <!-- Dropable -->
+    <div class="container mt-5">
+      <div id="draggable" class="ui-widget-content">
+       <p>Drag me to my target</p>
+      </div>
+      <div id="droppable" class="ui-widget-header">
+       <p>Drop here</p>
+      </div>
+    </div>
+
+    <!-- resizeable -->
+    <div class="container mt-5">
+     <div id="resizable" class="ui-widget-content">
+      <h3 class="ui-widget-header">Resizable</h3>
+     </div>
+    </div>
+
+    <!-- selectable -->
+    <div class="container mt-5">
+      <ul id="selectable">
+       <li class="ui-widget-content">Item 1</li>
+       <li class="ui-widget-content">Item 2</li>
+       <li class="ui-widget-content">Item 3</li>
+       <li class="ui-widget-content">Item 4</li>
+       <li class="ui-widget-content">Item 5</li>
+       <li class="ui-widget-content">Item 6</li>
+       <li class="ui-widget-content">Item 7</li>
+     </ul>
+    </div>
+
+    <!-- sortable -->
+    <div class="container mt-5">     
+     <ul id="sortable">
+       <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 1</li>
+       <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 2</li>
+       <li class="ui-state-default"><span class="ui-icon   ui-icon-arrowthick-2-n-s"></span>Item 3</li>
+       <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 4</li>
+       <li class="ui-state-default"><span class="ui-icon   ui-icon-arrowthick-2-n-s"></span>Item 5</li>
+       <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 6</li>
+       <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 7</li>
+     </ul>
+    </div>
+   
+
+
+
+      
+
+<!-- js links -->
+   <script src="js/jquery-3.7.0.min.js"></script>
+   <script src="js/jquery-ui.js"></script>
+   <script src="js/bootstrap.bundle.min.js"></script>
+   <script src="js/script.js"></script>
+  </body>
+</html>
